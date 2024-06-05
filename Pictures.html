@@ -7,63 +7,102 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Chez vous</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Menu.html">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Restaurant.html">Restaurant</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Pictures.html">Galerie</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="COntact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-<picture>
-      <div class="container">
-        <ul class="pagination">
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Previous">
-              <span aria-hidden="true">&laquo;</span>
-            </a>
-          </li class="img-fluid">
-          <li class="page-item"><a class="page-link" href="#"><img src="images/plat1.jpg" class="img-fluid" alt="plat"></a></li>
-          <li class="page-item"><a class="page-link" href="#"><img src="images/plat2_mini.jpg" class="img-fluid" alt="plat"></a></li>
-          <li class="page-item"><a class="page-link" href="#"><img src="images/plat3_mini.jpg" class="img-fluid" alt="plat"></a></li>
-          <li class="page-item"><a class="page-link" href="#"><img src="images/plat4_mini.jpg" class="img-fluid" alt="plat"></a></li>
-          <li class="page-item"><a class="page-link" href="#"><img src="images/plat5_mini.jpg" class="img-fluid" alt="plat"></a></li>
-          <li class="page-item"><a class="page-link" href="#"><img src="images/plat6_mini.jpg" class="img-fluid" alt="plat"></a></li>
-          <li class="page-item"><a class="page-link" href="#"><img src="images/plat7_mini.jpg" class="img-fluid" alt="plat"></a></li>
-          <li class="page-item"><a class="page-link" href="#"><img src="images/plat8_mini.jpg" class="img-fluid" alt="plat"></a></li>
-          <li class="page-item"><a class="page-link" href="#"><img src="images/plat9_mini.jpg" class="img-fluid" alt="plat"></a></li>
-          <li class="page-item"><a class="page-link" href="#"><img src="images/plat10_mini.jpg" class="img-fluid" alt="plat"></a></li>          
-            <a class="page-link" href="#" aria-label="Next">
-              <span aria-hidden="true">&raquo;</span>
-            </a>
+<body class="bg-dark">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning .text-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Chez vous</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Restaurant.html">Restaurant</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Pictures.html">Galerie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="COntact.html">Contact</a>
           </li>
         </ul>
       </div>
-</picture>    
- 
-<script src="https://ajax.googleapis.com/ajax/pbs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/pbs/popper.js/1.16.0/umd/popper.min.js"></script>
+    </div>
+  </nav>
+<br>
+<br>
+<section class="bg-dark">
+<div class="text-center text-light">
+  <h1>Galerie</h1>
+  <h5>Nos plats et bien plus</h5>
+</div>
+
+<div class="container">
+    <div id="page1" class="photo-page text-center">
+        <img src="images/plat1.jpg" class="img-thumbnail" alt="Photo 1" onclick="displayFullScreen('images/plat1.jpg')">
+        <img src="images/plat2_mini.jpg" class="img-thumbnail" alt="Photo 2" onclick="displayFullScreen('images/plat2_mini.jpg')">
+        <img src="images/plat3_mini.jpg" class="img-thumbnail" alt="Photo 3" onclick="displayFullScreen('images/plat3_mini.jpg')">
+    </div>
+
+    <div id="page2" class="photo-page" style="display: none;">
+        <img src="images/plat4_mini.jpg" class="img-thumbnail" alt="Photo 4" onclick="displayFullScreen('images/plat4_mini.jpg')">
+        <img src="images/plat5_mini.jpg" class="img-thumbnail" alt="Photo 5" onclick="displayFullScreen('images/plat5_mini.jpg')">
+        <img src="images/plat6_mini.jpg" class="img-thumbnail" alt="Photo 6" onclick="displayFullScreen('images/plat6_mini.jpg')">
+    </div>
+
+    <div id="page3" class="photo-page" style="display: none;">
+        <img src="images/plat7_mini.jpg" class="img-thumbnail" alt="Photo 7" onclick="displayFullScreen('images/plat7_mini.jpg')">
+        <img src="images/plat8_mini.jpg" class="img-thumbnail" alt="Photo 8" onclick="displayFullScreen('images/plat8_mini.jpg')">
+        <img src="images/plat9_mini.jpg" class="img-thumbnail" alt="Photo 9" onclick="displayFullScreen('images/plat9_mini.jpg')">
+    </div>
+</div>
+
+<div class="modal fade" id="fullscreenModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <img id="fullscreenImage" src="" class="img-fluid" alt="Photo en grand">
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav aria-label="Page navigation example" class="mt-4">
+    <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="#" onclick="showPage(1)">1</a></li>
+        <li class="page-item"><a class="page-link" href="#" onclick="showPage(2)">2</a></li>
+        <li class="page-item"><a class="page-link" href="#" onclick="showPage(3)">3</a></li>
+    </ul>
+</nav>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
- 
+<script>
+    function showPage(pageNumber) {
+        document.querySelectorAll('.photo-page').forEach(function(page) {
+            page.style.display = 'none';
+        });
+        document.getElementById('page' + pageNumber).style.display = 'block';
+    }
+</script>
+
+<script>
+    function displayFullScreen(imageSrc) {
+        var fullscreenImage = document.getElementById('fullscreenImage');
+        fullscreenImage.src = imageSrc;
+        $('#fullscreenModal').modal('show');
+    }
+</script>
+</section>
 </body>
 </html>

@@ -5,8 +5,13 @@
 }
 
 .bg-image {
-    background-image: url('images/salle.jpg');
+    background-image: url('images/neon.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+#page1 {
+    max-width: 100%;
+    height:auto;
 }
