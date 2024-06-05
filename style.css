@@ -3,3 +3,10 @@
     height: 200px;
     margin: 10px;
 }
+
+.bg-image {
+    background-image: url('images/salle.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
