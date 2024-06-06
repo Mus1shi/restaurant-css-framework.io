@@ -5,10 +5,22 @@
 }
 
 .bg-image {
-    background-image: url('images/neon.jpg');
+    background-image: url('images/face.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+.bg-images {
+    background-image: url('images/logo.png');
+    max-width : 30%;
+    height:min-content;
+}
+
+.images {
+    background-image: url('images/interieur.jpg');
+    background-size: cover;
+    height: auto;
 }
 
 #page1 {
