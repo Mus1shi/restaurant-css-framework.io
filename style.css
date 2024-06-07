@@ -28,3 +28,9 @@
     max-width: 100%;
     height:auto;
 }
+
+.restaurantbg {
+    background-image: url('images/geisha-rue-la-nuit.jpg');
+    background-position: center;
+    background-size: cover;
+}
