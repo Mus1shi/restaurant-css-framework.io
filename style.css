@@ -18,8 +18,9 @@
 }
 
 .images {
-    background-image: url('images/interieur.jpg');
+    background-image: url('images/saké.jpg');
     background-size: cover;
+    background-position:bottom;
     height: auto;
 }
 
