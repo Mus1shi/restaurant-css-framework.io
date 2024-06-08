@@ -4,43 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome Page</title>
+  <title>Galerie Page</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    .custom-image {
-      width: 300px;
-      /* Ajustez la largeur des images selon vos besoins */
-      height: auto;
-      /* Conserve le ratio de l'image */
-    }
-
-    footer {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background-color: #ffc107;
-      padding: 10px 0;
-    }
-
-    footer .container-fluid {
-      padding-left: 0;
-      padding-right: 0;
-    }
-
-    footer .col {
-      padding: 0 18px;
-    }
-
-    footer img {
-      max-width: 30px;
-      height: auto;
-    }
-  </style>
 </head>
 
-<body class="bg-dark">
-
+<body class="fond-gal">
   <nav class="navbar navbar-expand-lg navbar-light bg-warning .text-warning py-4">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" class="bg-images border"></a>
@@ -54,13 +23,16 @@
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Menu.html">Menu</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="Restaurant.html">Restaurant</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="Menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="Pictures.html">Galerie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="biomarket.html">BioMarket</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="COntact.html">Contact</a>
@@ -75,36 +47,78 @@
   <div class="text-center text-light">
     <h1>Galerie</h1>
     <h5>Nos plats et bien plus</h5>
-    <p> Laissez vous emporter par notre ambiance chaleureuse et conviviale !</p>
+    <p>Laissez vous emporter par notre ambiance chaleureuse et conviviale !</p>
   </div>
 
-
   <div class="container">
-    <div id="page1" class="photo-page text-center">
-      <img src="images/plat1.jpg" class="img-thumbnail custom-image" alt="Photo 1"
-        onclick="displayFullScreen('images/plat1.jpg')">
-      <img src="images/plat2_mini.jpg" class="img-thumbnail custom-image" alt="Photo 2"
-        onclick="displayFullScreen('images/plat2_mini.jpg')">
-      <img src="images/plat3_mini.jpg" class="img-thumbnail custom-image" alt="Photo 3"
-        onclick="displayFullScreen('images/plat3_mini.jpg')">
-    </div>
-
-    <div id="page2" class="photo-page" style="display: none;">
-      <img src="images/plat4_mini.jpg" class="img-thumbnail custom-image" alt="Photo 4"
-        onclick="displayFullScreen('images/plat4_mini.jpg')">
-      <img src="images/plat5_mini.jpg" class="img-thumbnail custom-image" alt="Photo 5"
-        onclick="displayFullScreen('images/plat5_mini.jpg')">
-      <img src="images/plat6_mini.jpg" class="img-thumbnail custom-image" alt="Photo 6"
-        onclick="displayFullScreen('images/plat6_mini.jpg')">
-    </div>
-
-    <div id="page3" class="photo-page" style="display: none;">
-      <img src="images/plat7_mini.jpg" class="img-thumbnail custom-image" alt="Photo 7"
-        onclick="displayFullScreen('images/plat7_mini.jpg')">
-      <img src="images/plat8_mini.jpg" class="img-thumbnail custom-image" alt="Photo 8"
-        onclick="displayFullScreen('images/plat8_mini.jpg')">
-      <img src="images/plat9_mini.jpg" class="img-thumbnail custom-image" alt="Photo 9"
-        onclick="displayFullScreen('images/plat9_mini.jpg')">
+    <div class="row">
+      <div class="col-12">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-4">
+                  <img src="images/plat1.jpg" class="img-thumbnail custom-image" alt="Photo 1"
+                    onclick="displayFullScreen('images/plat1.jpg')">
+                </div>
+                <div class="col-4">
+                  <img src="images/plat2_mini.jpg" class="img-thumbnail custom-image" alt="Photo 2"
+                    onclick="displayFullScreen('images/plat2_mini.jpg')">
+                </div>
+                <div class="col-4">
+                  <img src="images/plat3_mini.jpg" class="img-thumbnail custom-image" alt="Photo 3"
+                    onclick="displayFullScreen('images/plat3_mini.jpg')">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <img src="images/plat4_mini.jpg" class="img-thumbnail custom-image" alt="Photo 4"
+                    onclick="displayFullScreen('images/plat4_mini.jpg')">
+                </div>
+                <div class="col-4">
+                  <img src="images/plat5_mini.jpg" class="img-thumbnail custom-image" alt="Photo 5"
+                    onclick="displayFullScreen('images/plat5_mini.jpg')">
+                </div>
+                <div class="col-4">
+                  <img src="images/plat6_mini.jpg" class="img-thumbnail custom-image" alt="Photo 6"
+                    onclick="displayFullScreen('images/plat6_mini.jpg')">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <img src="images/plat7_mini.jpg" class="img-thumbnail custom-image" alt="Photo 7"
+                    onclick="displayFullScreen('images/plat7_mini.jpg')">
+                </div>
+                <div class="col-4">
+                  <img src="images/plat8_mini.jpg" class="img-thumbnail custom-image" alt="Photo 8"
+                    onclick="displayFullScreen('images/plat8_mini.jpg')">
+                </div>
+                <div class="col-4">
+                  <img src="images/plat9_mini.jpg" class="img-thumbnail custom-image" alt="Photo 9"
+                    onclick="displayFullScreen('images/plat9_mini.jpg')">
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -160,3 +174,4 @@
 </body>
 
 </html>
+

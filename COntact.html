@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
+    <title>Contact Page</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-imageu">
   <nav class="navbar navbar-expand-lg navbar-light bg-warning .text-warning py-4">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" class="bg-images border"></a>
@@ -21,36 +21,39 @@
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Menu.html">Menu</a>
+             <a class="nav-link" href="Restaurant.html">Restaurant</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Restaurant.html">Restaurant</a>
+           <a class="nav-link" href="Menu.html">Menu</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Pictures.html">Galerie</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="COntact.html">Contact</a>
+            <a class="nav-link" href="biomarket.html">BioMarket</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="COntact.html">Contact</a>
+          </li> 
         </ul>
       </div>
     </div>
   </nav>
       <div class="container panel panel-default mt-4 mb-4">
         <div class="panel-heading">
-          <h3 class="panel-title">Réservation</h3>
+          <h3 class="panel-title text-warning">Réservation</h3>
         </div>
         <div class="panel-body">
           <form>
-            <div class="form-group">
+            <div class="form-group text-warning">
               <label for="date">Date :</label>
               <input type="date" class="form-control" id="date" placeholder="Date">
             </div>
-            <div class="form-group">
+            <div class="form-group text-warning">
               <label for="time">Heure :</label>
               <input type="time" class="form-control" id="time" placeholder="Heure">
             </div>
-            <div class="form-group">
+            <div class="form-group text-warning">
               <label for="people">Nombre de personnes :</label>
               <input type="number" class="form-control" id="people" placeholder="Nombre de personnes">
             </div>
@@ -61,26 +64,26 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>Contact</h1>
+        <h1 class="text-warning">Contact</h1>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6">
-        <h2>Formulaire de contact</h2>
+        <h2 class="text-warning">Formulaire de contact</h2>
         <form>
-          <div class="form-group">
+          <div class="form-group text-warning">
             <label for="firstname">Prénom :</label>
             <input type="text" class="form-control" id="firstname" placeholder="Prénom">
           </div>
-          <div class="form-group">
+          <div class="form-group text-warning">
             <label for="lastname">Nom :</label>
             <input type="text" class="form-control" id="lastname" placeholder="Nom">
           </div>
-          <div class="form-group">
+          <div class="form-group text-warning">
             <label for="email">Adresse e-mail :</label>
             <input type="email" class="form-control" id="email" placeholder="Adresse e-mail">
           </div>
-          <div class="form-group">
+          <div class="form-group text-warning">
             <label for="subject">Sujet :</label>
             <select id="subject" class="form-control">
               <option value="Suggestion">Suggestion</option>
@@ -89,7 +92,7 @@
               <option value="Autre">Autre</option>
             </select>
           </div>
-          <div class="form-group">
+          <div class="form-group text-warning">
             <label for="message">Message :</label>
             <textarea class="form-control" id="message" placeholder="Message"></textarea>
           </div>

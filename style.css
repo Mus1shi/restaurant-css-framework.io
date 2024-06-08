@@ -30,7 +30,46 @@
 }
 
 .restaurantbg {
-    background-image: url(/.jpg');
+    background-image: url('images/fuji.jpg');
     background-position: center;
     background-size: cover;
 }
+
+.bg-imageu {
+    background-image: url('images/street.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fond-gal {
+    background-image: url('images/fondgal.jpg') ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.custom-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffc107;
+    padding: 10px 0;
+  }
+
+  footer .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  footer .col {
+    padding: 0 18px;
+  }
+
+  footer img {
+    max-width: 30px;
+    height: auto;
+  }
