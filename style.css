@@ -30,7 +30,7 @@
 }
 
 .restaurantbg {
-    background-image: url('images/geisha-rue-la-nuit.jpg');
+    background-image: url(/.jpg');
     background-position: center;
     background-size: cover;
 }
