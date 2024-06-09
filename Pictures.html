@@ -10,7 +10,7 @@
 </head>
 
 <body class="fond-gal">
-  <nav class="navbar navbar-expand-lg navbar-light bg-warning .text-warning py-4">
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning py-4">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" class="bg-images border"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -41,10 +41,8 @@
       </div>
     </div>
   </nav>
-  <br>
-  <br>
 
-  <div class="text-center text-light">
+  <div class="text-center text-light my-4">
     <h1>Galerie</h1>
     <h5>Nos plats et bien plus</h5>
     <p>Laissez vous emporter par notre ambiance chaleureuse et conviviale !</p>
@@ -62,15 +60,15 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                   <img src="images/plat1.jpg" class="img-thumbnail custom-image" alt="Photo 1"
                     onclick="displayFullScreen('images/plat1.jpg')">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                   <img src="images/plat2_mini.jpg" class="img-thumbnail custom-image" alt="Photo 2"
                     onclick="displayFullScreen('images/plat2_mini.jpg')">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                   <img src="images/plat3_mini.jpg" class="img-thumbnail custom-image" alt="Photo 3"
                     onclick="displayFullScreen('images/plat3_mini.jpg')">
                 </div>
@@ -78,15 +76,15 @@
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                   <img src="images/plat4_mini.jpg" class="img-thumbnail custom-image" alt="Photo 4"
                     onclick="displayFullScreen('images/plat4_mini.jpg')">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                   <img src="images/plat5_mini.jpg" class="img-thumbnail custom-image" alt="Photo 5"
                     onclick="displayFullScreen('images/plat5_mini.jpg')">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                   <img src="images/plat6_mini.jpg" class="img-thumbnail custom-image" alt="Photo 6"
                     onclick="displayFullScreen('images/plat6_mini.jpg')">
                 </div>
@@ -94,15 +92,15 @@
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                   <img src="images/plat7_mini.jpg" class="img-thumbnail custom-image" alt="Photo 7"
                     onclick="displayFullScreen('images/plat7_mini.jpg')">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                   <img src="images/plat8_mini.jpg" class="img-thumbnail custom-image" alt="Photo 8"
                     onclick="displayFullScreen('images/plat8_mini.jpg')">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                   <img src="images/plat9_mini.jpg" class="img-thumbnail custom-image" alt="Photo 9"
                     onclick="displayFullScreen('images/plat9_mini.jpg')">
                 </div>
@@ -132,8 +130,8 @@
       </div>
     </div>
   </div>
-  <div class="col text-center text-white">
-    <p>Cela vous à donné faim ? N'hésitez pas à jeter un oeil à notre <a href="Menu.html"><strong>menu</strong></a> !
+  <div class="text-center text-white my-4">
+    <p>Cela vous a donné faim ? N'hésitez pas à jeter un oeil à notre <a href="Menu.html"><strong>menu</strong></a> !
     </p>
   </div>
 
@@ -144,8 +142,8 @@
           <a href="#">mention légale</a>
         </div>
         <div class="col d-flex justify-content-end">
-          <a href="#"><img src="images/instagram.png" alt="https://instagram.com"></a>
-          <a href="#"><img src="images/twitter.png" alt="https://twitter.com"></a>
+          <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
         </div>
       </div>
     </div>
@@ -155,18 +153,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script>
-    function showPage(pageNumber) {
-      document.querySelectorAll('.photo-page').forEach(function (page) {
-        page.style.display = 'none';
-      });
-      document.getElementById('page' + pageNumber).style.display = 'block';
-    }
-  </script>
-
-  <script>
     function displayFullScreen(imageSrc) {
-      var fullscreenImage = document
-        .getElementById('fullscreenImage');
+      var fullscreenImage = document.getElementById('fullscreenImage');
       fullscreenImage.src = imageSrc;
       $('#fullscreenModal').modal('show');
     }
@@ -174,4 +162,3 @@
 </body>
 
 </html>
-
