@@ -16,7 +16,7 @@
   <div class="jumbotron text-center text-danger bg-dark">
     <h1>Bienvenue Chez Vous</h1>
     <p>Là où le bonheur se découvre en se sentant chez soi</p>
-    <a class="btn btn-warning btn-lg" href="COntact.html" role="button">Réservation</a>
+    <a class="btn btn-warning btn-lg" href="COntact.php" role="button">Réservation</a>
   </div>
 
   <div class="container">
@@ -27,7 +27,7 @@
             <h5 class="card-title">Chez Vous</h5>
             <h6 class="card-subtitle mb-2 text-muted">Le Restaurant</h6>
             <p class="card-text">Rue de la positude,23B <br>1232 Zenlandia <br>+98/1432.4.5543</p>
-            <a href="Restaurant.html" class="card-link btn btn-warning">Viendez-ici</a>
+            <a href="Restaurant.php" class="card-link btn btn-warning">Viendez-ici</a>
           </div>
         </div>
       </div>

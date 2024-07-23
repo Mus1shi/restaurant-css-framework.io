@@ -20,22 +20,22 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Restaurant.html">Restaurant</a>
+            <a class="nav-link" href="Restaurant.php">Restaurant</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Menu.html">Menu</a>
+            <a class="nav-link" href="Menu.php">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Pictures.html">Galerie</a>
+            <a class="nav-link" href="Pictures.php">Galerie</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="biomarket.html">BioMarket</a>
+            <a class="nav-link" href="biomarket.php">BioMarket</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="COntact.html">Contact</a>
+            <a class="nav-link" href="COntact.php">Contact</a>
           </li>
         </ul>
       </div>
@@ -131,7 +131,7 @@
     </div>
   </div>
   <div class="text-center text-white my-4">
-    <p>Cela vous a donné faim ? N'hésitez pas à jeter un oeil à notre <a href="Menu.html"><strong>menu</strong></a> !
+    <p>Cela vous a donné faim ? N'hésitez pas à jeter un oeil à notre <a href="Menu.php"><strong>menu</strong></a> !
     </p>
   </div>
 

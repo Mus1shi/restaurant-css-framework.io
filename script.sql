@@ -1,0 +1,8 @@
+CREATE TABLE guestbook (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    visited VARCHAR(255) NOT NULL,
+    visit_date DATE NOT NULL,
+    comment TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

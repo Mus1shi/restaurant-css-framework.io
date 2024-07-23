@@ -18,22 +18,22 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Restaurant.html">Restaurant</a>  
+            <a class="nav-link" href="Restaurant.php">Restaurant</a>  
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Menu.html">Menu</a>
+            <a class="nav-link" href="Menu.php">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Pictures.html">Galerie</a>
+            <a class="nav-link" href="Pictures.php">Galerie</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="biomarket.html">BioMarket</a>
+            <a class="nav-link" href="biomarket.php">BioMarket</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="COntact.html">Contact</a>
+            <a class="nav-link" href="COntact.php">Contact</a>
           </li>
         </ul>
       </div>
@@ -67,7 +67,7 @@
       </div>
       <div class="col-md-8">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5038.456172626837!2d4.354853376085388!3d50.845460458844485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47fd1d960c1%3A0xcbd18b1ea8412062!2sBeCode%20Brussels!5e0!3m2!1sfr!2sbe!4v1717499903360!5m2!1sfr!2sbe" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p class="text-warning mt-4">N'hésitez pas à regarder nos plats via notre <a href="Pictures.html">galerie</a>.</p>
+        <p class="text-warning mt-4">N'hésitez pas à regarder nos plats via notre <a href="Pictures.php">galerie</a>.</p>
       </div>
     </div>
   </div>
